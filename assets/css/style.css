@@ -59,29 +59,7 @@ body {
   box-sizing: border-box;
 }
 
-/* general */
-
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 20px;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -280,6 +258,7 @@ input[type=submit] {
   body {
     /*background-color: green;*/
   }
+
 }
 
 @media screen and (max-width: 640px) {
